@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="contact us for frontend devlopment work creating webpage">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@600&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>contact us ostud.ml frontend web devloper.</title>
+</head>
+<body>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0%;
+            box-sizing: border-box;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            text-decoration: none;
+        }
+        body
+        {
+            background: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .box
+        {
+            background: #E3EEFA;
+            width: 90vw;
+            margin-top: 25px;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          
+        }
+        h1
+        {
+            padding: 20px;
+            font-size: 50px;
+            color: #00d289;
+        }
+        h2
+        {
+            padding: 10px;
+            font-size: 25px;
+        }
+        .contact-form
+        {
+            margin-top: 20px;
+            margin-bottom: 20px;
+    
+        }
+        .form-control
+        {
+            border-color: rgb(0, 0, 0);
+            border-radius: 20px;
+            height: 45px;
+            width: 400px;
+            margin: 20px;
+            background: black;
+            color:#E3EEFA;
+        }
+        input.form-control.submit
+        {
+            background: #00d289;
+            color: black;
+            font-weight: 600;
+        
+        }
+        input.form-control.submit:hover
+        {
+            background: #84ffd4;
+            
+        }
+        .location, h3
+    {
+        color: #E3EEFA;
+        margin-top: 5px;
+        
+       }
+    a
+    {
+        color: #00d289;
+    }
+     
+        @media only screen and (max-width: 768px)
+        {
+            h1 
+            {
+                font-size: 30px;
+            }
+            h2 
+            {
+                font-size: 20px;
+            }
+            .form-control
+            {
+                 width: 250px;
+            }
+
+        }
+    </style>
+        <div class="location">
+            <h3>here you are-</h3>
+            <a href="index.html">HOME</a> > <a href="contact.html">CONTACT US</a>
+        </div>
+    
+        <div class="box">
+          
+            <h1>CONTACT US</h1>
+           
+            <h2>We're here to help and answer any quesetion you might <br> have. We look forward to hearing from you.</h2>
+        
+           <div class="contact-form">
+           <form id="contact-form" method="POST" action="https://formspree.io/f/mlezzqdg">
+               <input name="name" type="text" class="form-control" placeholder="Your Name" auto="off" required > <br>
+               <input name="email" type="email" class="form-control" placeholder="Your Email" autocomplete="off" required> <br>
+               <textarea name="message" class="form-control" placeholder="Your Message" autocomplete="off" id="" cols="30" rows="4"></textarea><br>
+               
+               <input type="submit" class="form-control submit" value="SEND" >
+
+           </form>
+            </div>
+        </div>
+
+</body>
+</html>

@@ -1,0 +1,199 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.background
+{
+    height: 100%;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #e3eefa;
+}
+.up
+{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+.logo
+{
+    margin-left: 20PX;
+    position: relative;
+    cursor: pointer;
+    height: 45px;
+}
+h1{
+    font-family: 'Rampart One', cursive;
+    font-weight: 700;
+    color: black;
+    
+}
+ul li
+{
+    display: inline-block;
+
+}
+ul li a{
+    background: black;
+    color: #e3eefa;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    border: black 2px solid;
+    transition: 0.5s;
+}
+ul li a:hover{
+    color: black;
+    background: #00d289;
+}
+.down
+{
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 40px 0px 40px;
+}
+
+.photo
+{
+    width: 40%;
+    float: right;
+    align-items: center;
+}
+img{
+    clip-path: circle(50% at 50% 50%);
+    transition: transform .5s ease;
+    height: 350px;
+    margin: 40px;
+}
+
+ img:hover
+{
+
+    transform: scale(1.2);
+}
+.photo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.intro
+{
+   text-align: center;
+   margin: 30px;
+}
+h2
+{
+    font-family:'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+}
+p
+{
+    font-family:'Poppins', sans-serif;
+    font-size: 20px;
+    margin: 20px;
+}
+#talk
+{
+    color: #e3eefa;
+    padding: 10px 25px;
+    background: black;
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: capitalize;
+    border-radius: 20px;
+    border:black 2px solid;
+    transition:0.5s;
+
+}
+#talk:hover
+{
+    background: #00d289;
+    color: black;
+}
+
+.social
+{
+    background: #00d289;
+    height: 10vh;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+   
+}
+.fa-facebook ,.fa-instagram
+{
+    font-size: 40px;
+    margin: 10px 40px;
+    color: #e3eefa;
+}
+
+a
+{
+    text-decoration: none;
+}
+.fa-facebook:hover
+{
+    color:#1000f5;
+}
+.fa-instagram:hover
+{
+    color: #E1306C;
+
+}
+@media only screen and (max-width:600px)
+ {
+    body 
+    {
+        position: absolute;
+    }
+    
+    ul li a{
+    
+       margin: 3px;
+       padding: 5px 10px;
+       border-radius: 20px;
+       font-size: 12PX;
+   }
+    .fas 
+    {
+        font-size: 25px;
+    }
+    .down
+    {
+      
+       display: flex;
+       flex-direction: column;
+       object-fit: contain;
+       height: 100%;
+    }
+    img
+    { 
+        margin-top: 70px ;
+        height: 15rem;
+    }
+    html 
+    {
+        overflow-y: scroll;
+            }
+    }
+    
+ 
+      
