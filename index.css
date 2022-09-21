@@ -13,30 +13,30 @@ header {
   display: none;
 }
 body {
-  background-color: #e3eefa;
+  background-color: #FFFFFF;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
 }
 /* ----------------------logo & Nevbar ------------------------ */
-.logo {
+/* .logo {
   font-size: 40px;
   color: rgb(255, 255, 255);
-  font-family: "Lobster", cursive;
-}
+  font-family: 'Lobster Two', cursive;
+} */
 header {
  
-  background: #030201;
+  background: #E1F3FF;
 
 }
 #logo1 {
-  color: #00d289;
-  font-family: "Poppins", sans-serif;
+  color: #2269E0;
+font-family: 'Parisienne', cursive;
   font-weight: 700;
   font-size: xx-large;
 }
 #logo1:hover {
-  color: #e3eefa;
+  color: #FFFFFF;
 }
 .navbar {
   min-height: 70px;
@@ -63,21 +63,20 @@ header {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #e3eefa;
+  background-color: #2269E0;
 }
 .nav-menu .nav-items a {
  
-  background: rgb(0, 0, 0);
+  background:#2269E0;
   padding: 3px 15px;
   border-radius: 30px;
-  border: 2px solid #e3eefa;
+  border: 1px solid black;
   transition: 0.5s;
   font-weight: 550;
+  color: #FFFFFF;
 }
 .nav-menu .nav-items a:hover {
-  background: #00d289;
-  color: black;
-  border: 2px solid #00d289;
+  background: #5f99fc;
   font-weight: 550;
 }
 /* --------------------------mid section-------------------------- */
@@ -89,40 +88,53 @@ header {
 }
 /* --------------------upperr body---------------------------- */
 .upbody {
-  background: #e3eefa;
+  background: #FFFFFF;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   width: 100vw;
-  height: 100%;
+  height: 90vh;
 }
 .intro {
   margin: 20px;
 }
 h4 {
   font-size: xx-large;
+  color: #005dfd;
 }
 h5 {
   font-size: x-large;
+  color: #005dfd;
+  font-weight: 400;
+}
+p{
+  color: #005dfd;
+}
+a{
+  color: #FFFFFF;
+  transition: 1s;
+}
+a:hover{
+  color: #2269E0;
 }
 button {
-  background-color: #00d289;
+  background-color: #2269E0;
   padding: 3px 10px;
   margin-top: 15px;
-  border: 2px solid #000000;
+  border: 1px solid #000000;
   border-radius: 20px;
   font-size: 15px;
   cursor: pointer;
   color: black;
   font-weight: 600;
-  transition: 0.3 ease-in-out;
 }
 button:hover {
-  color: #000000;
-  background: #e3eefa;
+
+  background-color: #FFFFFF;
+
 }
 #topimg {
-  width: 500px;
+  width: 800px;
 }
 /* -------------------lower body---------------------- */
 .lowbody {
@@ -132,12 +144,12 @@ button:hover {
   flex-direction: column;
   width: 100vw;
   height: 100vh;
-  background: #00d289;
+  background:#87E3FA;
 }
 h2 {
   font-size: 35px;
-  color: #e3eefa;
-  border-bottom: 2px solid #e3eefa;
+  color: #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
   margin: 10px;
 }
 .collection {
@@ -148,7 +160,7 @@ h2 {
   align-items: center;
   width: 90vw;
   height: 100%;
-  background: #e3eefa;
+  background: #FFFFFF;
   border-radius: 20px;
   margin: 10px;
 }
@@ -159,8 +171,8 @@ h2 {
   align-items: center;
   width: 240px;
   height: 240px;
-  background-color: #e3eefa;
-  border: 2px solid #00d289;
+  background-color: #FFFFFF;
+  border: 2px solid #2269E0;
   margin: 20px;
   border-radius: 20px;
   transition: 0.5s;
@@ -178,10 +190,10 @@ img {
 
 h1 {
   font-size: 100px;
-  color: #e3eefa;
+  color: #FFFFFF;
 }
 h3 {
-  color: #00d289;
+  color: #2269E0;
   font-family: poppins;
   font-size: 20px;
   text-transform: uppercase;
@@ -193,16 +205,17 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: black;
+  background-color: #E1F3FF;
   text-align: center;
   padding-top: 20px;
 }
 .copyright {
-  color: #e3eefa;
+
   font-size: small;
+  color: #2269E0;
   padding: 10px;
   margin-top: 10px;
-  border-top: 1px solid #00d289;
+  border-top: 1px solid #2269E0;
 }
 .quick-links {
   display: flex;
@@ -212,18 +225,18 @@ footer {
 .links,
 .more,
 .social,
-a {
+.link-a{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   padding: 5px;
 }
-a {
-  color: #e3eefa;
+.link-a {
+  color: #2269E0;
   transition: 0.5s;
 }
-a:hover {
-  color: #00d289;
+.link-a:hover {
+  color: #87E3FA;
 }
 @media only screen and (max-width: 768px) {
   #topimg {
