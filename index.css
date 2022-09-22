@@ -65,7 +65,7 @@ font-family: 'Parisienne', cursive;
   transition: all 0.3s ease-in-out;
   background-color: #2269E0;
 }
-.nav-menu .nav-items a {
+.nav-menu .nav-items .nav-link {
  
   background:#2269E0;
   padding: 3px 15px;
@@ -75,7 +75,7 @@ font-family: 'Parisienne', cursive;
   font-weight: 550;
   color: #FFFFFF;
 }
-.nav-menu .nav-items a:hover {
+.nav-menu .nav-items .nav-link:hover {
   background: #5f99fc;
   font-weight: 550;
 }
@@ -110,11 +110,11 @@ h5 {
 p{
   color: #005dfd;
 }
-a{
+.btn{
   color: #FFFFFF;
   transition: 1s;
 }
-a:hover{
+.btn:hover{
   color: #2269E0;
 }
 button {
@@ -148,8 +148,8 @@ button:hover {
 }
 h2 {
   font-size: 35px;
-  color: #FFFFFF;
-  border-bottom: 2px solid #FFFFFF;
+  color: #2269e0;
+  border-bottom: 2px solid #2269e0;
   margin: 10px;
 }
 .collection {
@@ -164,30 +164,26 @@ h2 {
   border-radius: 20px;
   margin: 10px;
 }
-.project {
+.project
+{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 240px;
-  height: 240px;
-  background-color: #FFFFFF;
-  border: 2px solid #2269E0;
+  width: 200px;
+  background-color:#E1F3FF;
+  height: 200px;
   margin: 20px;
-  border-radius: 20px;
+  color: #2269E0;
   transition: 0.5s;
-  overflow: hidden;
 }
-.project img {
-  width: 240px;
+.project:hover{
+  background-color: #d2eafa;
 }
-.project:hover {
-  transform: scale(1.2);
+.project-img
+{
+  width: 150px;
 }
-img {
-  object-fit: cover;
-}
-
 h1 {
   font-size: 100px;
   color: #FFFFFF;
@@ -199,6 +195,22 @@ h3 {
   text-transform: uppercase;
   text-align: center;
 }
+/* -----------------------------profile section--------------------------------- */
+.profile-section {
+  background: #FFFFFF;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  height: 60vh;
+  margin-top: 60px;
+}
+.pro-img
+{
+  width: 300px;
+  clip-path: circle(50%);
+}
+
 
 /* ----------------------------footer---------------------------- */
 footer {
@@ -249,9 +261,10 @@ footer {
     height: 100%;
     margin: 10px;
   }
-  .project {
-    margin: 30px;
-  }
+ .intro
+{
+  padding-top: 80px;
+}
   h4 {
     font-size: 30px;
   }
@@ -261,7 +274,7 @@ footer {
   .intro {
     margin: 45px 25px;
   }
-  .upbody {
+  .upbody ,.profile-section {
     flex-direction: column;
   }
   button {
@@ -290,7 +303,7 @@ footer {
     gap: 0;
     flex-direction: column;
     justify-content: start;
-    background-color: #000000;
+    background-color:  #E1F3FF;
     width: 100%;
     height: 100vh;
     text-align: center;
@@ -303,7 +316,7 @@ footer {
   .nav-menu.active {
     left: 0;
   }
-  a {
+  .link-a {
     padding: 8px 50px;
   }
   h1 {
@@ -322,7 +335,7 @@ footer {
   .links,
   .social,
   .more,
-  a {
+  .link-a {
     flex-direction: column;
     justify-content: center;
     text-align: center;
