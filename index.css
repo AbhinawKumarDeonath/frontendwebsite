@@ -30,7 +30,7 @@ header {
 
 }
 #logo1 {
-  color: #2269E0;
+  color: #0830b3;
 font-family: 'Parisienne', cursive;
   font-weight: 700;
   font-size: xx-large;
@@ -63,11 +63,11 @@ font-family: 'Parisienne', cursive;
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #2269E0;
+  background-color: #0830b3;
 }
 .nav-menu .nav-items .nav-link {
  
-  background:#2269E0;
+  background:#0830b3;
   padding: 3px 15px;
   border-radius: 30px;
   border: 1px solid black;
@@ -100,25 +100,25 @@ font-family: 'Parisienne', cursive;
 }
 h4 {
   font-size: xx-large;
-  color: #005dfd;
+  color: #0830b3;
 }
 h5 {
   font-size: x-large;
-  color: #005dfd;
+  color: #0830b3;
   font-weight: 400;
 }
 p{
-  color: #005dfd;
+  color: #0830b3;
 }
 .btn{
   color: #FFFFFF;
   transition: 1s;
 }
 .btn:hover{
-  color: #2269E0;
+  color: #0830b3;
 }
 button {
-  background-color: #2269E0;
+  background-color: #0830b3;
   padding: 3px 10px;
   margin-top: 15px;
   border: 1px solid #000000;
@@ -148,8 +148,8 @@ button:hover {
 }
 h2 {
   font-size: 35px;
-  color: #2269e0;
-  border-bottom: 2px solid #2269e0;
+  color: #0830b3;
+  border-bottom: 2px solid #0830b3;
   margin: 10px;
 }
 .collection {
@@ -174,7 +174,7 @@ h2 {
   background-color:#E1F3FF;
   height: 200px;
   margin: 20px;
-  color: #2269E0;
+  color: #0830b3;
   transition: 0.5s;
 }
 .project:hover{
@@ -189,7 +189,7 @@ h1 {
   color: #FFFFFF;
 }
 h3 {
-  color: #2269E0;
+  color: #0830b3;
   font-family: poppins;
   font-size: 20px;
   text-transform: uppercase;
@@ -224,10 +224,10 @@ footer {
 .copyright {
 
   font-size: small;
-  color: #2269E0;
+  color: #0830b3;
   padding: 10px;
   margin-top: 10px;
-  border-top: 1px solid #2269E0;
+  border-top: 1px solid #0830b3;
 }
 .quick-links {
   display: flex;
@@ -244,7 +244,7 @@ footer {
   padding: 5px;
 }
 .link-a {
-  color: #2269E0;
+  color: #0830b3;
   transition: 0.5s;
 }
 .link-a:hover {
@@ -276,6 +276,10 @@ footer {
   }
   .upbody ,.profile-section {
     flex-direction: column;
+  }
+  .profile-section
+  {
+    height: 100%;
   }
   button {
     padding: 5px 8px;
