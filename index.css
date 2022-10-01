@@ -261,6 +261,10 @@ footer {
     height: 100%;
     margin: 10px;
   }
+  .upbody
+  {
+    height: 100%;
+  }
  .intro
 {
   padding-top: 80px;
