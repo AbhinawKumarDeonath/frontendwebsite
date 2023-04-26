@@ -90,13 +90,18 @@ font-family: 'Parisienne', cursive;
 .upbody {
   background: #FFFFFF;
   display: flex;
-  justify-content: space-evenly;
+  justify-content:center;
   align-items: center;
   width: 100vw;
   height: 90vh;
 }
 .intro {
   margin: 20px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: #000000; */
+  align-items: center;
+  justify-content: center;
 }
 h4 {
   font-size: xx-large;
@@ -133,8 +138,11 @@ button:hover {
   background-color: #FFFFFF;
 
 }
+.image{
+  width: 500px;
+}
 #topimg {
-  width: 800px;
+  width: 100%;
 }
 /* -------------------lower body---------------------- */
 .lowbody {
