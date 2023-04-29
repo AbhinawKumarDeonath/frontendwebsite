@@ -178,19 +178,23 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 200px;
+  width: 300px;
   background-color:#E1F3FF;
-  height: 200px;
+  height: 300px;
   margin: 20px;
   color: #0830b3;
+  border-radius: 30px;
   transition: 0.5s;
 }
 .project:hover{
-  background-color: #d2eafa;
+  background-color: #addeff;
+  transform: scale(1.1);
 }
+
 .project-img
 {
-  width: 150px;
+  width: 250px;
+  border-radius: 30px;
 }
 h1 {
   font-size: 100px;
@@ -259,6 +263,15 @@ footer {
   color: #87E3FA;
 }
 @media only screen and (max-width: 768px) {
+  .project
+  {
+    width:200px;
+    height: 200px;
+  }
+  .project-img
+  {
+    width:150px ;
+  }
   #topimg {
     width: 350px;
   }
